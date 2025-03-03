@@ -1,15 +1,16 @@
-[
-  {
+[ {
     "id": 1,
-    "name": "John Doe"
+    "name": "Sudip",
+    "age": 25
   },
   {
-    "id": 1,
-    "name": "John Doe",
-    "age": 20
+    "id": 2,
+    "name": "Jay",
+    "age": 25
   },
   {
-    "id": 1,
-    "name": "John Doe"
+    "id": 3,
+    "name": "Archit",
+    "age": 25
   }
 ]
