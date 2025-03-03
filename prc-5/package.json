@@ -1,0 +1,19 @@
+{
+  "name": "prc-5_original",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.21.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
