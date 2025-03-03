@@ -21,7 +21,11 @@ const writeUsers = (users) =>
 const server = createServer((req, res) => {
   const { method, url } = req;
 
-  if (url === "/users" && method === "GET") {
+  if (url === "/" && method === "GET") {
+    // Root route
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify({ message: "Welcome to the User API" }));
+  } else if (url === "/users" && method === "GET") {
     // GET /users: Return all users
     const users = readUsers();
     res.writeHead(200, { "Content-Type": "application/json" });
